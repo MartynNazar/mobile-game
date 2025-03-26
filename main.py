@@ -41,12 +41,10 @@ class ThirdScreen(Screen):
         btn = Button(text="це кнопка на третьому вікні")
         btn.on_press = self.go_to_first
 
-        lbl = Label(text="це надпис")
-        lbl_1 = Label(text="це таж надпис")
+
 
         self.add_widget(btn)
-        self.add_widget(lbl)
-        self.add_widget(lbl_1)
+
 
 
     def go_to_first(self):
